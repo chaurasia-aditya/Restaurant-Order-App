@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/ic_launcher"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/l3"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/Go_To_Menu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@drawable/btn_style"
+			android:text="Menu"
+			android:textColor="@android:color/white"
+			android:textSize="15dp"
+			android:textStyle="bold" />
+
+		<Button
+			android:id="@+id/Go_To_Order_List"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@drawable/btn_style"
+			android:text="Order"
+			android:textColor="@android:color/white"
+			android:textSize="15dp"
+			android:textStyle="bold" />
+
+		<!--  	<Button
+	        android:id="@+id/custinfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/btn_style"
+	        android:textColor="#FC00FF"
+	        android:layout_weight="1"
+	        android:text="Customer" />-->
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/l3"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/FindStore"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@drawable/btn_style"
+			android:text="Find Store"
+			android:textColor="@android:color/white"
+			android:textSize="15dp"
+			android:textStyle="bold" />
+
+		<Button
+			android:id="@+id/Info"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@drawable/btn_style"
+			android:text="Information"
+			android:textColor="@android:color/white"
+			android:textSize="15dp"
+			android:textStyle="bold" />
+	</LinearLayout>
+
+
+</RelativeLayout>
+
